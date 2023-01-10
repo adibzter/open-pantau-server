@@ -1,0 +1,22 @@
+api-routes/notificationRoute.js
+	- your-public-key
+	- your-private-key
+	- your@email.com
+	- your-icon-url
+	- your-badge-url
+
+client/src/utils/serviceWorker.js
+	- your-public-key
+
+secrets/cloudflare.ini
+	- your-api-token
+
+secrets/skrin-pantau-bucket.json
+ssl/cert.pem
+ssl/key.pem
+ssl/origin-cert.pem
+ssl/origin-key.pem
+
+build.sh
+	- your@email.com
+	- your.domain

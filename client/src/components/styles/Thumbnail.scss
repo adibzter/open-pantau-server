@@ -1,0 +1,18 @@
+.thumbnail {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5px;
+  height: 100%;
+  width: fit-content;
+	text-align: center;
+  // border: 1px solid white;
+
+  &:hover {
+    cursor: pointer;
+    filter: brightness(1.5);
+  }
+
+  img {
+    height: 80%;
+  }
+}

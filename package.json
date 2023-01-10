@@ -1,0 +1,33 @@
+{
+  "name": "pantau",
+  "version": "0.0.1",
+  "description": "Main server for pantau",
+  "main": "server.js",
+  "scripts": {
+    "postinstall": "npm --prefix client i client",
+    "start": "node server",
+    "dev": "concurrently \"npm start\" \"npm start --prefix client\""
+  },
+  "keywords": [
+    "pantau",
+    "http",
+    "api",
+    "stream",
+    "rtmp",
+    "cctv"
+  ],
+  "author": "Adib Zaini",
+  "license": "",
+  "devDependencies": {
+    "concurrently": "^7.2.1",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^6.0.1",
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "node-media-server": "https://github.com/ADIBzTER/Node-Media-Server.git",
+    "uuid": "^8.3.2",
+    "web-push": "^3.5.0"
+  }
+}

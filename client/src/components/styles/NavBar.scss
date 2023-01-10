@@ -1,0 +1,27 @@
+#appbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  border-bottom: 1px dashed white;
+  z-index: 999;
+
+  .center {
+    width: 100%;
+
+    .float-right {
+      float: right;
+    }
+  }
+}
+
+@media only screen and(max-width:900px) {
+  #appbar {
+    .button {
+      width: 5em;
+    }
+  }
+}

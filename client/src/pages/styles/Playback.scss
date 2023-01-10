@@ -1,0 +1,49 @@
+#playback-page {
+  margin: 80px 0 20px 0;
+
+  #center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    #title-div {
+      font-size: 1.5rem;
+      margin: 0 0 5px 10px;
+    }
+
+    .plyr {
+      width: 50vw;
+      border: 1px dashed white;
+      border-radius: 10px;
+    }
+
+    #more-videos {
+      display: flex;
+      margin-top: 20px;
+      height: 130px;
+      width: 50%;
+      border: 1px dashed white;
+			border-radius: 5px;
+      padding: 10px;
+      overflow-y: hidden;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #playback-page {
+    #center {
+      .plyr {
+        width: 90vw;
+      }
+
+      #more-videos {
+        width: 90vw;
+      }
+    }
+  }
+}

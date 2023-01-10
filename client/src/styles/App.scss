@@ -1,0 +1,24 @@
+$scrollbar-color: #4a4a4a;
+
+body {
+  margin: 0 auto;
+  background-color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+body:hover::-webkit-scrollbar-thumb {
+  background: $scrollbar-color;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+
+  &:hover {
+    background: $scrollbar-color;
+  }
+}
