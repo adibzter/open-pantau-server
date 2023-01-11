@@ -8,7 +8,7 @@ This is the server side of an open-source project called **Pantau** which respon
 
 
 ## Disclaimer ⚠️
-This open-source version is not guarenteed to work 100% like the original one due to some modifications to hide secrets used in the real system. See [changes.txt](https://github.com/ADIBzTER/open-pantau-server/blob/master/changes.txt) what files have been changed.
+This open-source version is not guarenteed to work 100% like the original one due to some modifications to hide secrets used in the real system. Go to [changes.txt](https://github.com/ADIBzTER/open-pantau-server/blob/master/changes.txt) to see what files have been changed.
 
 ## License
 This project is licensed under the [MIT License](https://github.com/adibzter/open-pantau-server/blob/master/LICENSE)
